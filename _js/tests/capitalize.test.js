@@ -1,7 +1,5 @@
 const capitalize = require('../capitalize');
 
-const UPPERCASE = "UPPERCASE";
-
 test('should capitalize lowercase string correctly', () => {
   expect(capitalize("capitalize")).toBe("Capitalize");
 });
@@ -11,7 +9,7 @@ test("should return '' for strings with length 0", () => {
 });
 
 test("should return the same string for uppercase letters", () => {
-    expect(capitalize("UPPERCASE")).toBe(UPPERCASE);
+    expect(capitalize("UPPERCASE")).toBe("UPPERCASE");
 });
 
 test("should return an error for non-string inputs", () => {
