@@ -7,7 +7,7 @@ test("works with single letters", () => {
 test('works with words and keeps the case', function() {
     expect(caesar('Aaa', 1)).toEqual('Bbb');
 });
-
+2
 test('works with phrases', function() {
     expect(caesar('Hello, World!', 5)).toEqual('Mjqqt, Btwqi!');
 });
